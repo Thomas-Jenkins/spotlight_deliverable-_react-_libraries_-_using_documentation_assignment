@@ -1,5 +1,6 @@
 import { Link, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Table from './Components/Table';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route path="/table">
           <h1>Table Libary</h1>
+          <Table />
         </Route>
         <Route path="/charts">
           <h1>Chart Library</h1>
