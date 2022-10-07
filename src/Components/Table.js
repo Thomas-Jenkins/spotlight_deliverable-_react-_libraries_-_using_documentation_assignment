@@ -14,15 +14,15 @@ export default function Table() {
         <HeaderCell>ID</HeaderCell>
         <Cell dataKey="id" />
       </Column>
-      <Column flexGrow>
+      <Column>
         <HeaderCell>first_name</HeaderCell>
         <Cell dataKey="first_name"/>
       </Column>
-      <Column flexGrow>
+      <Column>
         <HeaderCell>last_name</HeaderCell>
         <Cell dataKey="last_name" />
       </Column>
-      <Column flexGrow>
+      <Column flexGrow={100}>
         <HeaderCell>email</HeaderCell>
         <Cell dataKey='email'/>
       </Column>
