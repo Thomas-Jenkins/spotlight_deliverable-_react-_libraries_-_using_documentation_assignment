@@ -12,7 +12,7 @@ function App() {
       </nav>
       <Switch>
         <Route path="/table">
-          <h1>Table Libary</h1>
+          <h1 className="font-bold text-3xl bg-blue-300">Table Libary</h1>
           <Table />
         </Route>
         <Route path="/charts">
