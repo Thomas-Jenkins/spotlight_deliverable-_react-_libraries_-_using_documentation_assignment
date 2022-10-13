@@ -7,7 +7,9 @@ import rawData from '../users.json';
 
 export default function Table() {
   const [data, setData] = useState(rawData);
-  
+  if (!data) {
+    setData(rawData);
+  }
   return (
     <>
       <div className="bg-orange-800">
