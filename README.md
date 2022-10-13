@@ -16,6 +16,7 @@ The purpose of this week's spotlight is to introduce you to using open-source li
 
 ### Chart Libraries
 
+
 - [Victory Chart](https://formidable.com/open-source/victory/docs/victory-chart/)
 - [Recharts](https://recharts.org/en-US/)
 - [Charts.js](https://github.com/reactchartjs/react-chartjs-2)
